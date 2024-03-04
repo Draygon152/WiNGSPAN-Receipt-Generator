@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/WiNGSPAN Title.png</file>
+        <file>icons/WiNGSPAN Alliance Logo.ico</file>
+    </qresource>
+</RCC>

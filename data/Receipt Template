@@ -1,0 +1,43 @@
+<font size="13" color="#bfffffff"><u>Receipt #</u>: %1-152
+
+<u>Agents Involved</u>:</font>
+<font size="13" color="#ffd98d00"><a href="showinfo:1384//94810788">Kevin</a></font>
+
+<font size="13" color="#bfffffff"><u>Summary of Items Delivered</u>:</font>
+<font size="13" color="#ffd98d00">%2</font>
+<font size="13" color="#bfffffff"><u>Ship(s) Delivered To</u>:</font>
+<font size="13" color="#ffd98d00"><a href="killReport:%3:%4">Kill: %6 (%8)</a></font>
+
+
+
+<font size="13" color="#bfffffff">Dear </font><font size="13" color="#ffd98d00"><a href="showinfo:1373//%5">%6</a></font><font size="13" color="#bfffffff">,
+
+This is Kevin, your friendly neighborhood </font><font size="13" color="#ffd98d00"><loc><a href="showinfo:2//98330748">WiNGSPAN Delivery Services</a></loc></font><font size="13" color="#bfffffff"> Agent!
+
+I am contacting you today to provide you with a receipt for the delivery of ammunition to your ship in </font><font size="13" color="#ffd98d00"><a href="showinfo:5//%10">%11</a></font><font size="13" color="#bfffffff">. We met at %12, which you had chosen as your delivery location, and I promptly delivered you the ammunition that you had requested.<br><br>Unfortunately, it appears that your </font><font size="13" color="#ffd98d00"><a href="showinfo:%7">%8</a></font><font size="13" color="#bfffffff">%9 cargo bay had been damaged prior to delivery, and as such, our rapid-delivery system caused irreparable damage to your ship's structure. We here at </font><font size="13" color="#ffd98d00"><loc><a href="showinfo:2//98330748">WiNGSPAN Delivery Services</a></loc></font><font size="13" color="#bfffffff"> are deeply apologetic for this unfortunate incident, and recommend that proper maintenance procedures are regularly followed prior to any further deliveries to prevent any accidents of this nature from occurring again.
+
+Thank you very much for making use of our services. We hope to see you again soon!
+Remember, <i>we're not happy until you're content!</i>
+
+Love,
+Kevin
+
+
+
+=================================================================================================================
+
+
+
+In order to improve our service to customers, WiNGSPAN Delivery Services
+offers a series of functional feedback forms that you, our valued customer,
+may fill out to help us develop new and better ways to meet our customers
+needs. We ask that you please take the time to fill out any and all forms
+that you feel may apply to your delivery. Thank you!
+
+If you have successfully received your order, please fill out our </font><font size="13" color="#ffffe400"><a href="https://docs.google.com/forms/d/1BHYCprYWLCqtjG2H6eXZvTAQ2CFUJGxrlH4ePr0mLv4/viewform?usp=send_form">Order Form</a></font>
+
+<font size="13" color="#bfffffff">If you would like to file a complaint against the agent that performed your delivery, please fill out our </font><font size="13" color="#ffffe400"><a href="https://docs.google.com/forms/d/1soy-vclV7rFI2RxETqguPrY22-0sZvJHF-TrXDnmnLo/viewform?usp=send_form">Official Complaint Form</a></font>
+
+<font size="13" color="#bfffffff">If you would like to report on the general level of satisfaction that you feel regarding the quality of your delivery, please fill out our </font><font size="13" color="#ffffe400"><a href="https://docs.google.com/forms/d/1tNrwf7F6gr7VXTLTfnsqxvdI_9N6Dsgm-sAMRspJiZc/viewform?usp=send_form">Satisfaction Survey</a></font>
+
+<font size="13" color="#bfffffff">If you have specific feedback that is not covered in any of these forms, you are invited to call us and leave a voicemail containing your feedback at </font><font size="13" color="#ff007f00"><u>725-TORPS4U</u></font><font size="13" color="#ffffffff">!</font>

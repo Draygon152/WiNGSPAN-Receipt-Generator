@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/data">
+        <file>data/Receipt Template</file>
+    </qresource>
+</RCC>
