@@ -89,7 +89,6 @@ void KMParse::fetchData()
                                  itemsDeliveredStr += DELIVERED_ITEM.arg(item.first, QString::number(item.second));
                              }
                          }
-                         qDebug() << itemsDeliveredStr;
                          reply->deleteLater();
                          loop.exit();
                      });
