@@ -6,6 +6,7 @@
 #include <qsavefile.h>
 #include <qclipboard.h>
 #include <qlist.h>
+#include <qtimer.h>
 #include "KMParse.h"
 
 

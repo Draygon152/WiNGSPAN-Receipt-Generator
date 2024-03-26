@@ -31,6 +31,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_getKMInfoButton_clicked()
 {
     ui->getKMInfoButton->setEnabled(false);
+    ui->kmStatusLabel->clear();
     QString kmLink = ui->kmLineEdit->text();
     km = new KMParse(kmLink);
     
@@ -38,6 +39,7 @@ void MainWindow::on_getKMInfoButton_clicked()
     {
         ui->kmStatusLabel->setText("Killmail Info Fetched!");
         ui->kmStatusLabel->setStyleSheet("QLabel { color: green; }");
+        // TODO: Add success sound
         validKMFetched = true;
         ui->getKMInfoButton->setEnabled(true);
         ui->generateReceiptButton->setEnabled(true);
@@ -47,11 +49,17 @@ void MainWindow::on_getKMInfoButton_clicked()
     {
         ui->kmStatusLabel->setText("Invalid Killmail Link");
         ui->kmStatusLabel->setStyleSheet("QLabel { color: red; }");
-        QApplication::beep();
+        QApplication::beep(); // TODO: Replace with failure sound
         validKMFetched = false;
         ui->getKMInfoButton->setEnabled(true);
         ui->generateReceiptButton->setEnabled(false);
     }
+
+    QTimer::singleShot(10000,
+                       [&]()
+                       {
+                           ui->kmStatusLabel->clear();
+                       });
 }
 
 void MainWindow::on_kmLineEdit_returnPressed()
@@ -63,6 +71,8 @@ void MainWindow::on_generateReceiptButton_clicked()
 {
     if (validKMFetched)
     {
+        ui->receiptStatusLabel->clear();
+
         QClipboard* clipboard = QGuiApplication::clipboard();;
         QString output;
 
@@ -89,7 +99,14 @@ void MainWindow::on_generateReceiptButton_clicked()
         ui->locationLineEdit->setEnabled(true);
         updateReceiptNumber();
 
+        QTimer::singleShot(10000,
+                           [&]()
+                           {
+                               ui->receiptStatusLabel->clear();
+                           });
+
         clipboard->setText(output);
+        QApplication::beep(); // TODO: Replace with better sound
     }
 }
 
