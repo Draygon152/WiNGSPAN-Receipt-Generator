@@ -1,4 +1,4 @@
-![WiNGSPAN Delivery Services Logo](https://cdn.discordapp.com/attachments/1110815832474406983/1222342834703700019/WiNGSPAN.png?ex=6615de79&is=66036979&hm=1159335086f9bb8243cfd1b7cc2cb5d855d8b92546e3edc4ddec4a062a388468&)
+![WiNGSPAN Delivery Services Logo](icons/WiNGSPAN%20Title%20Light.png)
 # WiNGSPAN Delivery Receipt Generator
 Do you ever wish you could get delivery paperwork into the hands of customers more quickly? Do you dream of having more time to make deliveries in a day? Do you fantasize about small software solutions branded with the logo of New Eden's #1 ammunition delivery service?
 
